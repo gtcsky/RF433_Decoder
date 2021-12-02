@@ -1,0 +1,677 @@
+Dependencies for Project 'CXMotorDrover', Target 'Target 1': (DO NOT MODIFY !)
+F (.\DEVICE\system_cx32l003.c)(0x5CD96701)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\system_cx32l003.o --omf_browse .\objects\system_cx32l003.crf --depend .\objects\system_cx32l003.d)
+I (DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (DEVICE\system_cx32l003.h)(0x5CD96863)
+F (.\DEVICE\startup_cx32l003.s)(0x5D551ECF)(--cpu Cortex-M0+ --li -g --apcs=interwork -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1"--list .\listings\startup_cx32l003.lst --xref -o .\objects\startup_cx32l003.o --depend .\objects\startup_cx32l003.d)
+F (.\FWLB\src\cx32l003_adc.c)(0x5D56760E)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_adc.o --omf_browse .\objects\cx32l003_adc.crf --depend .\objects\cx32l003_adc.d)
+I (.\FWLB\inc\cx32l003_adc.h)(0x5D566763)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_advtim.c)(0x5DD73982)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_advtim.o --omf_browse .\objects\cx32l003_advtim.crf --depend .\objects\cx32l003_advtim.d)
+I (.\FWLB\inc\cx32l003_advtim.h)(0x5DD73991)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_awk.c)(0x5CD96D5A)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_awk.o --omf_browse .\objects\cx32l003_awk.crf --depend .\objects\cx32l003_awk.d)
+I (.\FWLB\inc\cx32l003_awk.h)(0x5CDA19BF)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_beeper.c)(0x5CD965EE)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_beeper.o --omf_browse .\objects\cx32l003_beeper.crf --depend .\objects\cx32l003_beeper.d)
+I (.\FWLB\inc\cx32l003_beeper.h)(0x5CD96863)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_clktrim.c)(0x5D50BD6D)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_clktrim.o --omf_browse .\objects\cx32l003_clktrim.crf --depend .\objects\cx32l003_clktrim.d)
+I (.\FWLB\inc\cx32l003_clktrim.h)(0x5D50D6C6)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_crc.c)(0x5CD965EE)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_crc.o --omf_browse .\objects\cx32l003_crc.crf --depend .\objects\cx32l003_crc.d)
+I (.\FWLB\inc\cx32l003_crc.h)(0x5CD96863)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_debug.c)(0x5D608D11)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_debug.o --omf_browse .\objects\cx32l003_debug.crf --depend .\objects\cx32l003_debug.d)
+I (.\FWLB\inc\cx32l003_debug.h)(0x5CD96863)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_exti.c)(0x5D834225)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_exti.o --omf_browse .\objects\cx32l003_exti.crf --depend .\objects\cx32l003_exti.d)
+I (.\FWLB\inc\cx32l003_exti.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+F (.\FWLB\src\cx32l003_flash.c)(0x5D5F4026)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_flash.o --omf_browse .\objects\cx32l003_flash.crf --depend .\objects\cx32l003_flash.d)
+I (.\FWLB\inc\cx32l003_flash.h)(0x5CECFC71)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_gpio.c)(0x5D69DE78)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_gpio.o --omf_browse .\objects\cx32l003_gpio.crf --depend .\objects\cx32l003_gpio.d)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_i2c.c)(0x5D608B35)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_i2c.o --omf_browse .\objects\cx32l003_i2c.crf --depend .\objects\cx32l003_i2c.d)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_it.c)(0x5CECE6F8)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_it.o --omf_browse .\objects\cx32l003_it.crf --depend .\objects\cx32l003_it.d)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+F (.\FWLB\src\cx32l003_iwdt.c)(0x5CD965EE)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_iwdt.o --omf_browse .\objects\cx32l003_iwdt.crf --depend .\objects\cx32l003_iwdt.d)
+I (.\FWLB\inc\cx32l003_iwdt.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_lptimer.c)(0x5CD965EE)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_lptimer.o --omf_browse .\objects\cx32l003_lptimer.crf --depend .\objects\cx32l003_lptimer.d)
+I (.\FWLB\inc\cx32l003_lptimer.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_lpuart.c)(0x5CD965EE)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_lpuart.o --omf_browse .\objects\cx32l003_lpuart.crf --depend .\objects\cx32l003_lpuart.d)
+I (.\FWLB\inc\cx32l003_lpuart.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_lvd.c)(0x5CD965EE)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_lvd.o --omf_browse .\objects\cx32l003_lvd.crf --depend .\objects\cx32l003_lvd.d)
+I (.\FWLB\inc\cx32l003_lvd.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_owire.c)(0x5CD965EE)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_owire.o --omf_browse .\objects\cx32l003_owire.crf --depend .\objects\cx32l003_owire.d)
+I (.\FWLB\inc\cx32l003_owire.h)(0x5CEBA1A7)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_pca.c)(0x5CD965EE)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_pca.o --omf_browse .\objects\cx32l003_pca.crf --depend .\objects\cx32l003_pca.d)
+I (.\FWLB\inc\cx32l003_pca.h)(0x5CDA1998)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_rcc.c)(0x5D50DA88)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_rcc.o --omf_browse .\objects\cx32l003_rcc.crf --depend .\objects\cx32l003_rcc.d)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_rtc.c)(0x5CD965ED)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_rtc.o --omf_browse .\objects\cx32l003_rtc.crf --depend .\objects\cx32l003_rtc.d)
+I (.\FWLB\inc\cx32l003_rtc.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_spi.c)(0x5CD965ED)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_spi.o --omf_browse .\objects\cx32l003_spi.crf --depend .\objects\cx32l003_spi.d)
+I (.\FWLB\inc\cx32l003_spi.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_syscon.c)(0x5D4D20F4)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_syscon.o --omf_browse .\objects\cx32l003_syscon.crf --depend .\objects\cx32l003_syscon.d)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_timer.c)(0x5D4D1EE5)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_timer.o --omf_browse .\objects\cx32l003_timer.crf --depend .\objects\cx32l003_timer.d)
+I (.\FWLB\inc\cx32l003_timer.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_uart.c)(0x5CD96D49)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_uart.o --omf_browse .\objects\cx32l003_uart.crf --depend .\objects\cx32l003_uart.d)
+I (.\FWLB\inc\cx32l003_uart.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\cx32l003_vc.c)(0x5D5F3EDC)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_vc.o --omf_browse .\objects\cx32l003_vc.crf --depend .\objects\cx32l003_vc.d)
+I (.\FWLB\inc\cx32l003_vc.h)(0x5D5F420A)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\FWLB\src\cx32l003_wwdt.c)(0x5CD967D1)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\cx32l003_wwdt.o --omf_browse .\objects\cx32l003_wwdt.crf --depend .\objects\cx32l003_wwdt.d)
+I (.\FWLB\inc\cx32l003_wwdt.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+F (.\FWLB\src\misc.c)(0x5DCB644D)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\USER\src\user_advtime.c)(0x5DD73933)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_advtime.o --omf_browse .\objects\user_advtime.crf --depend .\objects\user_advtime.d)
+I (.\USER\inc\user_advtime.h)(0x5DD73DF4)
+I (.\FWLB\inc\cx32l003_advtim.h)(0x5DD73991)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\USER\inc\io_define.h)(0x5DDE25B1)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\user_menu.h)(0x5DDE1CC3)
+F (.\USER\src\user_basetime.c)(0x5DD7326D)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_basetime.o --omf_browse .\objects\user_basetime.crf --depend .\objects\user_basetime.d)
+I (.\USER\inc\user_basetime.h)(0x5DD734CB)
+I (.\FWLB\inc\cx32l003_timer.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+F (.\USER\src\user_exti.c)(0x5DDCDDD2)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_exti.o --omf_browse .\objects\user_exti.crf --depend .\objects\user_exti.d)
+I (.\USER\inc\user_exti.h)(0x5DD7357A)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_exti.h)(0x5CD96862)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\user_key.h)(0x5DDBAE3E)
+I (.\USER\inc\user_menu.h)(0x5DDE1CC3)
+I (.\USER\inc\io_define.h)(0x5DDE25B1)
+F (.\USER\src\user_internalFlash.c)(0x5DD73319)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_internalflash.o --omf_browse .\objects\user_internalflash.crf --depend .\objects\user_internalflash.d)
+I (.\USER\inc\user_internalFlash.h)(0x5DD73596)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\USER\src\user_led.c)(0x5DD73381)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_led.o --omf_browse .\objects\user_led.crf --depend .\objects\user_led.d)
+I (.\USER\inc\user_led.h)(0x5D5E3927)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+F (.\USER\src\user_lptimer.c)(0x5DD73393)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_lptimer.o --omf_browse .\objects\user_lptimer.crf --depend .\objects\user_lptimer.d)
+I (.\USER\inc\user_lptimer.h)(0x5DD73614)
+I (.\FWLB\inc\cx32l003_lptimer.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\user_led.h)(0x5D5E3927)
+I (.\USER\inc\user_awk.h)(0x5DD734B9)
+I (.\FWLB\inc\cx32l003_awk.h)(0x5CDA19BF)
+I (.\USER\inc\user_exti.h)(0x5DD7357A)
+I (.\FWLB\inc\cx32l003_exti.h)(0x5CD96862)
+F (.\USER\src\user_rtc.c)(0x5DD733D8)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_rtc.o --omf_browse .\objects\user_rtc.crf --depend .\objects\user_rtc.d)
+I (.\USER\inc\user_rtc.h)(0x5DD73637)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rtc.h)(0x5CD96862)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+F (.\USER\src\user_SysClock.c)(0x5DD733F2)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_sysclock.o --omf_browse .\objects\user_sysclock.crf --depend .\objects\user_sysclock.d)
+I (.\USER\inc\user_SysClock.h)(0x5DD7364A)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\USER\inc\user_clktrim.h)(0x5D4E79C8)
+I (.\FWLB\inc\cx32l003_clktrim.h)(0x5D50D6C6)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\FWLB\inc\cx32l003_uart.h)(0x5CD96862)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\USER\inc\user_internalFlash.h)(0x5DD73596)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\main.h)(0x5D510639)
+F (.\USER\src\main.c)(0x5DDE252E)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\USER\inc\user_exti.h)(0x5DD7357A)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_exti.h)(0x5CD96862)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\user_led.h)(0x5D5E3927)
+I (.\USER\inc\user_lcd.h)(0x5DDDE9CF)
+I (.\USER\inc\io_define.h)(0x5DDE25B1)
+I (.\USER\inc\user_advtime.h)(0x5DD73DF4)
+I (.\FWLB\inc\cx32l003_advtim.h)(0x5DD73991)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\USER\inc\user_internalFlash.h)(0x5DD73596)
+I (.\USER\inc\user_SysClock.h)(0x5DD7364A)
+I (.\USER\inc\user_rtc.h)(0x5DD73637)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_rtc.h)(0x5CD96862)
+I (.\USER\inc\user_lptimer.h)(0x5DD73614)
+I (.\FWLB\inc\cx32l003_lptimer.h)(0x5CD96862)
+I (.\USER\inc\user_key.h)(0x5DDBAE3E)
+I (.\USER\inc\user_menu.h)(0x5DDE1CC3)
+I (.\USER\inc\user_adc.h)(0x5DD7346F)
+I (.\FWLB\inc\cx32l003_adc.h)(0x5D566763)
+I (.\FWLB\inc\cx32l003_spi.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_lpuart.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_uart.h)(0x5CD96862)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (.\USER\inc\user_basetime.h)(0x5DD734CB)
+I (.\FWLB\inc\cx32l003_timer.h)(0x5CD96862)
+I (.\USER\inc\user_awk.h)(0x5DD734B9)
+I (.\FWLB\inc\cx32l003_awk.h)(0x5CDA19BF)
+I (.\USER\inc\user_iwdt.h)(0x5DD735B4)
+I (.\FWLB\inc\cx32l003_iwdt.h)(0x5CD96862)
+I (.\USER\inc\user_color.h)(0x5DD73FD5)
+I (.\USER\inc\user_ddl.h)(0x5DD7350A)
+F (.\USER\src\user_key.c)(0x5DDBAE11)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_key.o --omf_browse .\objects\user_key.crf --depend .\objects\user_key.d)
+I (.\USER\inc\user_key.h)(0x5DDBAE3E)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\USER\inc\user_exti.h)(0x5DD7357A)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_exti.h)(0x5CD96862)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\user_menu.h)(0x5DDE1CC3)
+I (.\USER\inc\user_lptimer.h)(0x5DD73614)
+I (.\FWLB\inc\cx32l003_lptimer.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\USER\inc\io_define.h)(0x5DDE25B1)
+F (.\USER\src\user_menu.c)(0x5DDE40C7)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_menu.o --omf_browse .\objects\user_menu.crf --depend .\objects\user_menu.d)
+I (.\USER\inc\user_advtime.h)(0x5DD73DF4)
+I (.\FWLB\inc\cx32l003_advtim.h)(0x5DD73991)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\USER\inc\user_basetime.h)(0x5DD734CB)
+I (.\FWLB\inc\cx32l003_timer.h)(0x5CD96862)
+I (.\USER\inc\io_define.h)(0x5DDE25B1)
+I (.\USER\inc\user_menu.h)(0x5DDE1CC3)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\user_key.h)(0x5DDBAE3E)
+I (.\USER\inc\user_exti.h)(0x5DD7357A)
+I (.\FWLB\inc\cx32l003_exti.h)(0x5CD96862)
+I (.\USER\inc\user_lptimer.h)(0x5DD73614)
+I (.\FWLB\inc\cx32l003_lptimer.h)(0x5CD96862)
+I (.\USER\inc\user_adc.h)(0x5DD7346F)
+I (.\FWLB\inc\cx32l003_adc.h)(0x5D566763)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_spi.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_lpuart.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_uart.h)(0x5CD96862)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (.\USER\inc\user_led.h)(0x5D5E3927)
+I (.\USER\inc\user_lcd.h)(0x5DDDE9CF)
+I (.\USER\inc\user_color.h)(0x5DD73FD5)
+F (.\USER\src\user_adc.c)(0x5DD73200)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_adc.o --omf_browse .\objects\user_adc.crf --depend .\objects\user_adc.d)
+I (.\USER\inc\user_adc.h)(0x5DD7346F)
+I (.\FWLB\inc\cx32l003_adc.h)(0x5D566763)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\FWLB\inc\cx32l003_spi.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_lpuart.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_uart.h)(0x5CD96862)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\USER\inc\user_menu.h)(0x5DDE1CC3)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\io_define.h)(0x5DDE25B1)
+F (.\USER\src\user_awk.c)(0x5DD73244)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_awk.o --omf_browse .\objects\user_awk.crf --depend .\objects\user_awk.d)
+I (.\USER\inc\user_awk.h)(0x5DD734B9)
+I (.\FWLB\inc\cx32l003_awk.h)(0x5CDA19BF)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\USER\inc\user_lptimer.h)(0x5DD73614)
+I (.\FWLB\inc\cx32l003_lptimer.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\USER\inc\user_menu.h)(0x5DDE1CC3)
+F (.\USER\src\user_iwdt .c)(0x5DD7332F)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o ".\objects\user_iwdt .o" --omf_browse ".\objects\user_iwdt .crf" --depend ".\objects\user_iwdt .d")
+I (.\USER\inc\user_iwdt.h)(0x5DD735B4)
+I (.\FWLB\inc\cx32l003_iwdt.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+I (.\USER\inc\const.h)(0x5DDE4043)
+F (.\USER\src\user_color.c)(0x5DDE3558)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_color.o --omf_browse .\objects\user_color.crf --depend .\objects\user_color.d)
+I (.\USER\inc\user_color.h)(0x5DD73FD5)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\USER\inc\io_define.h)(0x5DDE25B1)
+I (.\USER\inc\user_advtime.h)(0x5DD73DF4)
+I (.\FWLB\inc\cx32l003_advtim.h)(0x5DD73991)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\USER\inc\user_menu.h)(0x5DDE1CC3)
+F (.\USER\src\user_lcd.c)(0x5DDDE9D6)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_lcd.o --omf_browse .\objects\user_lcd.crf --depend .\objects\user_lcd.d)
+I (.\USER\inc\user_lcd.h)(0x5DDDE9CF)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\USER\inc\io_define.h)(0x5DDE25B1)
+I (.\USER\inc\user_ddl.h)(0x5DD7350A)
+I (.\USER\inc\user_spi.h)(0x5DDB31BC)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_spi.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\USER\inc\user_adc.h)(0x5DD7346F)
+I (.\FWLB\inc\cx32l003_adc.h)(0x5D566763)
+I (.\FWLB\inc\cx32l003_lpuart.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_uart.h)(0x5CD96862)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (.\USER\inc\user_menu.h)(0x5DDE1CC3)
+I (.\USER\inc\user_lptimer.h)(0x5DD73614)
+I (.\FWLB\inc\cx32l003_lptimer.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_syscon.h)(0x5CD96C1B)
+I (.\USER\inc\user_character.h)(0x5DDB8268)
+F (.\USER\src\user_ddl.c)(0x5DD51C4B)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_ddl.o --omf_browse .\objects\user_ddl.crf --depend .\objects\user_ddl.d)
+I (.\USER\inc\user_ddl.h)(0x5DD7350A)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (.\USER\src\user_spi.c)(0x5DDB43EF)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I .\USER\inc -I .\Communication\inc -I .\FWLB\inc -I .\DEVICE-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM0P-o .\objects\user_spi.o --omf_browse .\objects\user_spi.crf --depend .\objects\user_spi.d)
+I (.\USER\inc\user_spi.h)(0x5DDB31BC)
+I (.\FWLB\inc\cx32l003_rcc.h)(0x5CD96862)
+I (.\DEVICE\cx32l003.h)(0x5D5FC326)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0.h)(0x5C8B5FF6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
+I (.\DEVICE\system_cx32l003.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_conf.h)(0x5CD96863)
+I (.\FWLB\inc\cx32l003_i2c.h)(0x5CDA1998)
+I (.\FWLB\inc\cx32l003_spi.h)(0x5CD96862)
+I (.\FWLB\inc\cx32l003_gpio.h)(0x5D54C97E)
+I (.\USER\inc\const.h)(0x5DDE4043)
+I (.\USER\inc\io_define.h)(0x5DDE25B1)
+I (.\FWLB\inc\misc.h)(0x5CD965EE)
+F (.\DOC\readme.txt)(0x5CDA2F3B)()

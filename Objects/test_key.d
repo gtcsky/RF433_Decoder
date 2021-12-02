@@ -1,0 +1,12 @@
+.\objects\test_key.o: USER\src\test_key.c
+.\objects\test_key.o: .\USER\inc\test_key.h
+.\objects\test_key.o: .\FWLB\inc\cx32l003_gpio.h
+.\objects\test_key.o: .\DEVICE\cx32l003.h
+.\objects\test_key.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_key.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h
+.\objects\test_key.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h
+.\objects\test_key.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h
+.\objects\test_key.o: .\DEVICE\system_cx32l003.h
+.\objects\test_key.o: .\FWLB\inc\cx32l003_conf.h
+.\objects\test_key.o: .\FWLB\inc\cx32l003_i2c.h
+.\objects\test_key.o: .\FWLB\inc\cx32l003_conf.h

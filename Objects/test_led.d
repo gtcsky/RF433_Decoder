@@ -1,0 +1,10 @@
+.\objects\test_led.o: USER\src\test_led.c
+.\objects\test_led.o: .\USER\inc\test_led.h
+.\objects\test_led.o: ..\FWLB\inc\xm32l003_gpio.h
+.\objects\test_led.o: ..\DEVICE\xm32l003.h
+.\objects\test_led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_led.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\core_cm0.h
+.\objects\test_led.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_compiler.h
+.\objects\test_led.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include\cmsis_armcc.h
+.\objects\test_led.o: ..\DEVICE\system_xm32l003.h
+.\objects\test_led.o: ..\FWLB\inc\xm32l003_conf.h

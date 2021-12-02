@@ -1,0 +1,12 @@
+.\objects\xm32l003_gpio.o: ..\FWLB\src\xm32l003_gpio.c
+.\objects\xm32l003_gpio.o: ..\FWLB\inc\xm32l003_gpio.h
+.\objects\xm32l003_gpio.o: ..\DEVICE\xm32l003.h
+.\objects\xm32l003_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\xm32l003_gpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h
+.\objects\xm32l003_gpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\objects\xm32l003_gpio.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\objects\xm32l003_gpio.o: ..\DEVICE\system_xm32l003.h
+.\objects\xm32l003_gpio.o: ..\FWLB\inc\xm32l003_conf.h
+.\objects\xm32l003_gpio.o: ..\FWLB\inc\xm32l003_i2c.h
+.\objects\xm32l003_gpio.o: ..\FWLB\inc\xm32l003_conf.h
+.\objects\xm32l003_gpio.o: ..\FWLB\inc\xm32l003_rcc.h

@@ -1,0 +1,17 @@
+.\objects\test_exti.o: USER\src\test_exti.c
+.\objects\test_exti.o: .\USER\inc\test_exti.h
+.\objects\test_exti.o: .\FWLB\inc\xm32l003_exti.h
+.\objects\test_exti.o: .\FWLB\inc\xm32l003_gpio.h
+.\objects\test_exti.o: .\CMSIS\xm32l003.h
+.\objects\test_exti.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test_exti.o: D:\keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h
+.\objects\test_exti.o: D:\keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
+.\objects\test_exti.o: D:\keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
+.\objects\test_exti.o: .\CMSIS\system_xm32l003.h
+.\objects\test_exti.o: .\FWLB\inc\xm32l003_conf.h
+.\objects\test_exti.o: .\FWLB\inc\xm32l003_i2c.h
+.\objects\test_exti.o: .\FWLB\inc\xm32l003_conf.h
+.\objects\test_exti.o: .\USER\inc\test_gpio.h
+.\objects\test_exti.o: .\Communication\inc\std_common.h
+.\objects\test_exti.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\test_exti.o: D:\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
